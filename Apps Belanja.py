@@ -1,4 +1,5 @@
-money = 20
+input_money = input("Masukkan nominal uang anda:")
+money = int(input_money)
 items = {'apel': 2, 'pisang': 4, 'jeruk': 6}
 for item_name in items:
     print('--------------------------------------------------')
